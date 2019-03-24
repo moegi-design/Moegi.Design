@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Molengo|Noto+Sans+SC|Noto+Serif+SC|Ubuntu|Ubuntu+Mono');
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    position: relative;
+    font-family: 'Noto Sans SC', sans-serif;
+    background: #FCFCFC;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.container .header > .title {
+    font-size: 48px;
+    font-family: 'Molengo', sans-serif;
+}
+
+.container .header > .desc {
+    margin-top: 4px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Noto Sans SC', sans-serif;
+    letter-spacing: 4px;
+    color: #808080;
+}
+
+.container .btn-group {
+    margin-top: 120px;
+}
+
+.container .btn-group > .btn {
+    font-size: 16px;
+    background: #c0c0c0;
+    padding: 8px 20px;
+    color: #ffffff;
+    border-radius: 32px;
+}
